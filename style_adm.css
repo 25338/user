@@ -1,0 +1,222 @@
+body, form {
+	margin:0;
+	padding:0;
+	font-family: Arial;
+	font-size: 13px;
+	background: #fff;
+}
+/* нумерация страницы */
+.numeratcia {
+	font-size: 13px;
+	padding: 0 10px 10px 10px;
+}
+/* формы логина */
+.login-form {
+	border-radius: 15px;
+	max-width:400px;
+	margin: auto;
+}
+.login-header {
+	padding: 10px 20px;
+	background-color: #262E38;
+	color: #fff;
+	border-radius: 15px 15px 0 0;
+	text-align: center;
+	font-size: 15px;
+}
+.login-body {
+	padding: 10px 20px 20px;
+	font-size: 15px;
+	line-height: 1.4;
+	background: #fafafa;
+}
+.login_error {
+	color: #f00;
+}
+/* шапка */
+.header {
+	background-color: #313546;
+    height: 45px;
+}
+.header-left {
+	background: #272a37;
+	width: 280px;
+	padding: 0 5px;
+	color: #fff;
+	line-height: 1;
+}
+.header-img{
+	padding-left: 10px;
+	width: 55px;
+}
+.header-1{
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.header-2 {
+	color: #aaa; 
+	font-size: 12px;
+}
+.header-center {
+	padding-left: 10px;
+	background: #313546;
+	color: #aaa;
+    font-size: 12px;
+}
+.header-right {
+	flex: 0 1 auto;
+    padding: 0 15px;
+    color: #ccc;
+    font-size: 15px;
+}
+/* профайл */
+.mydropdown>a {
+	background: #1c1e28;
+}
+.prof::after {
+	display: none !important;
+}
+.profile {
+	font-size: 13px;
+	padding-left: 15px !important;
+}
+.profile i {
+	padding: 0 5px 0 0;
+}
+
+/* разделитель в профайле*/
+.divider {
+    margin: 3px 0;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+.user-profile i {
+	width: 20px;
+}
+/* разметка экрана */
+.side {
+	position: absolute;
+	top: 45px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: #ddd;
+}
+.left-side {
+	background: #fff;
+	width: 280px;
+    padding: 15px 0;
+    overflow-y: auto;
+    position: fixed;
+    top: 45px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 49;
+}
+.center-side {
+	/*margin-left: 280px;*/
+	padding-left: 280px;
+	width: 100%;
+}
+/* меню модулей */
+.left_menu {
+	list-style-type:none; 
+	font-size: 13px; 
+	padding: 7px 20px;
+	color: #555;
+	text-decoration:none;
+}
+.left_menu:hover {
+	background:#eee;
+}
+.left_menu_sel {
+	text-decoration:none; 
+	background: #eee;
+}
+/* размер шрифтов */
+.text_16 {
+	font-size: 16px;
+	font-weight:bold;
+	white-space:nowrap;
+}
+.text_13 {
+	font-size: 13px !important;
+}
+
+/* заголовок модуля */
+.title-module {
+	padding: 0 0 10px 0;
+	font-size: 20px;
+}
+/* отступ кнопки добавить */
+.btn-action {
+	margin: 0 20px !important;
+}
+/* фон модуля по центру*/
+.div-padding {
+	padding: 10px;
+	background: #ddd;
+}
+/* белый фон*/
+.bg-white {
+	background: #fff;
+}
+/* серый фон */
+.bg-grey {
+	background: #eee;
+}
+/* интервал между div*/
+.row-padding {
+	padding: 5px 0;
+}
+/* размер checkbox */
+.width-checkbox {
+	width: 20px;
+	height: 20px;
+}
+/* размер всех кнопок bootsrap */
+.btn {
+    font-size: 12px !important;
+}
+.padding20 {
+	padding: 20px;
+}
+.padding10 {
+	padding: 10px;
+}
+.pagination {
+	font-size: 13px;
+}
+.div-scroll {
+	height: calc(100vh - 140px);
+}
+.div-scroll-2 {
+	height: calc(100vh - 220px);
+}
+.forma1_comment {
+	color: #e00;
+	font-size: 13px;
+	padding: 5px 10px;
+	font-weight: bold;
+}
+.container-width {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.thVal {
+	text-align: center;
+}
+.field {
+	min-width: 120px;
+}
+.summa {
+	min-width: 120px;
+}
+.head-color {
+	background: #fff !important;
+	color: #000 !important;
+}
+.paddingleft5 {
+	padding-left: 5px;
+}
